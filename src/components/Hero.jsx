@@ -76,9 +76,9 @@ export default function Hero() {
             <div className="absolute inset-0 rounded-full bg-cyan-400 blur-3xl opacity-50"></div>
 
             <img
-              src="/profile1.png"
+              src="/profile4.png"
               alt="profile"
-              className="relative w-80 h-80 md:w-96 md:h-96 object-cover rounded-full border-4 border-cyan-400"
+              className="relative w-80 h-80 md:w-96 md:h-96 object-cover  rounded-full border-4 border-cyan-400"
             />
           </div>
         </div>

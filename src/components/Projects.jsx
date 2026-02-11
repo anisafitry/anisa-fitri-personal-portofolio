@@ -1,5 +1,11 @@
 const projects = [
     {
+        title: "Anisa Fitri || Personal Portofolio",
+        desc: "Website yang memperkenalkan background, skill, dan project-project yang telah saya buat",
+        live: "https://anisa-fitri-personal-portofolio.vercel.app/",
+        img: "/portofolio.png",
+    },
+    {
         title: "Rumah Kinclong Medan",
         desc: "Website layanan kebersihan rumah, AC, toren, dan halaman dengan tenaga profesional & alat modern.",
         live: "https://rumahkinclongmedan.vercel.app/",

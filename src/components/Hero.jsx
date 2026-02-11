@@ -72,17 +72,19 @@ export default function Hero() {
 
         {/* RIGHT IMAGE */}
         <div className="flex justify-center items-center">
-          <div className="relative">
-            <div className="absolute inset-0 rounded-full bg-cyan-400 blur-3xl opacity-50"></div>
+          <div className="relative w-64 sm:w-72 md:w-80 lg:w-96 aspect-square">
 
+            {/* Glow */}
+            <div className="absolute inset-0 rounded-full bg-cyan-400 blur-3xl opacity-40"></div>
+
+            {/* Image */}
             <img
               src="/profile4.png"
               alt="profile"
-              className="relative w-80 h-80 md:w-96 md:h-96 object-cover  rounded-full border-4 border-cyan-400"
+              className="relative w-full h-full object-cover rounded-full border-4 border-cyan-400"
             />
           </div>
         </div>
-
       </motion.div>
     </section>
   )
